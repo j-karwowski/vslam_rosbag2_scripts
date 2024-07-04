@@ -1,0 +1,2 @@
+# Ignore all locally saved rosbags
+record_zed_stereo_gray/rosbag2_*/
