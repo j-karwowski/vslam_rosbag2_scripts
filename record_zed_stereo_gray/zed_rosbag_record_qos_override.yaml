@@ -30,3 +30,15 @@
   durability: volatile
   history: keep_all
   reliability: reliable
+/diagnostics:
+  durability: volatile
+  history: keep_all
+  reliability: reliable
+/tf:
+  durability: volatile
+  history: keep_all
+  reliability: reliable
+/tf_static:
+  durability: volatile
+  history: keep_all
+  reliability: reliable
