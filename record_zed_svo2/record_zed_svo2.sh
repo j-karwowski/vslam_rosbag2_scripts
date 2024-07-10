@@ -9,7 +9,7 @@ readonly SERVICE_NAME="${1:-/zed/zed_node/start_svo_rec}"
 readonly DEFAULT_SVO_FILE="${SCRIPT_DIR}/$(date +'%Y-%m-%d-%H-%M')_zed"
 readonly SVO_FILENAME="${2:-$DEFAULT_SVO_FILE}"
 
-readonly BITRATE="${3:-0}"
+readonly BITRATE="${3:-30000}"
 readonly COMPRESSION_MODE="${4:-1}"
 readonly TARGET_FRAMERATE="${5:-30}"
 readonly INPUT_TRANSCODE="${6:-false}"
