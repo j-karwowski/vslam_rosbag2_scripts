@@ -1,5 +1,4 @@
 # Ignore all locally saved rosbags
-record_zed_stereo_gray/rosbag2_*/
-record_zed_stereo_and_depth_gray/rosbag2_*/
+record_zed_rosbag/rosbag2_*/
 # And ZED's recording files
 **.svo2

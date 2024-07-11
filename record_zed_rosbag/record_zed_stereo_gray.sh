@@ -9,7 +9,6 @@ source /opt/ros/${ROS_DISTRIBUTION}/setup.bash
 
 cd $TARGET_DIR
 ros2 bag record \
-    --qos-profile-overrides-path "$SCRIPT_DIR/zed_rosbag_record_qos_override.yaml" \
     /zed/zed_node/imu/data \
     /zed/zed_node/imu/data_raw \
     /zed/zed_node/left_gray/image_rect_gray \
