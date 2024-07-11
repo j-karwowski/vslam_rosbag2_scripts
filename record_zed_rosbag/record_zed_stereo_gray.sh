@@ -17,6 +17,7 @@ ros2 bag record \
     /zed/zed_node/right_gray/camera_info \
     /zed/zed_node/odom \
     /zed/zed_node/path_odom \
+    /clicked_point \
     /diagnostics \
     /tf \
     /tf_static 
