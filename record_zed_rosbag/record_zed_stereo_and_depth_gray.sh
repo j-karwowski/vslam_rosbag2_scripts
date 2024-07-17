@@ -15,11 +15,11 @@ ros2 bag record \
     /zed/zed_node/right_gray/image_rect_gray \
     /zed/zed_node/left_gray/camera_info \
     /zed/zed_node/right_gray/camera_info \
-    /zed/zed_node/depth/depth_registered \
     /zed/zed_node/odom \
     /zed/zed_node/path_odom \
     /clicked_point \
     /diagnostics \
     /tf \
-    /tf_static 
+    /tf_static \
+    /zed/zed_node/depth/depth_registered
 # NOTE: depth is associated with the left image
