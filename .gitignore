@@ -1,0 +1,4 @@
+# Ignore all locally saved rosbags
+record_zed_rosbag/rosbag2_*/
+# And ZED's recording files
+**.svo2

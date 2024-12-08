@@ -1,0 +1,48 @@
+/zed/zed_node/imu/data:
+  durability: volatile
+  history: keep_all
+  reliability: reliable
+/zed/zed_node/imu/data_raw:
+  durability: volatile
+  history: keep_all
+  reliability: reliable
+/zed/zed_node/left_gray/image_rect_gray:
+  durability: volatile
+  history: keep_all
+  reliability: reliable
+/zed/zed_node/right_gray/image_rect_gray:
+  durability: volatile
+  history: keep_all
+  reliability: reliable
+/zed/zed_node/left_gray/camera_info:
+  durability: volatile
+  history: keep_all
+  reliability: reliable
+/zed/zed_node/right_gray/camera_info:
+  durability: volatile
+  history: keep_all
+  reliability: reliable
+/zed/zed_node/depth/depth_registered:
+  durability: volatile
+  history: keep_all
+  reliability: reliable
+/zed/zed_node/odom:
+  durability: volatile
+  history: keep_all
+  reliability: reliable
+/zed/zed_node/path_odom:
+  durability: volatile
+  history: keep_all
+  reliability: reliable
+/diagnostics:
+  durability: volatile
+  history: keep_all
+  reliability: reliable
+/tf:
+  durability: volatile
+  history: keep_all
+  reliability: reliable
+/tf_static:
+  durability: volatile
+  history: keep_all
+  reliability: reliable
